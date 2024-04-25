@@ -6,6 +6,8 @@ cipher algorithm, designed to replace the earlier DES.
 AES uses repeat cycles or ``rounds.'' There are 10, 12, or 14 rounds for keys of 128, 192, and 256 bits, respectively. The input text is represented as a 4 x 4 array of bytes. The key is represented as a 4 x 4 array of bytes, where n depends on the key size.
 For AES 128 following flowchart is used for encryption and decryption.
 
+<img width="381" alt="image" src="https://github.com/manya-imran/AES-implementation-C/assets/167977645/af2ccf25-8318-484d-9268-e282b8550c84">
+
 Each round of the algorithm consists of four steps:
 
 1. subBytes: for each byte in the array, use its value as an index into a fixed
